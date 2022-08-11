@@ -26,8 +26,10 @@ while (count == 0):
 			z2 = str(round(floorGlobal*(1.2),3))
 			z3 = str(round(floorGlobal*(1.3),3))
 			z4 = str(round(floorGlobal*(1.4),3))
+			l1 = str(round(floorGlobal*(1.05),3))
+			h1 = str(round(floorGlobal*(1.09),3))
 
-			print(x + ' -- F: '+y + ' -- 1.1x: '+ z + ' -- 1.2x: '+ z2 + ' -- 1.3x: '+ z3 + ' -- 1.4x: '+ z4)
+			print(x + ' -- F: '+y + ' -- 1.1x: '+ z + ' -- 1.05x: '+ l1 + ' -- 1.09x: '+ h1 + ' -- 1.2x: '+ z2 + ' -- 1.3x: '+ z3 + ' -- 1.4x: '+ z4)
 			
 			
 		else:
